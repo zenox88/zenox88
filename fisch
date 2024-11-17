@@ -1,7 +1,3 @@
--- v1.6
-
-local ProtectPremium = true
-
 --<>----<>----<>----< Getting Services >----<>----<>----<>--
 AnalyticsService = game:GetService("AnalyticsService")
 CollectionService = game:GetService("CollectionService")
