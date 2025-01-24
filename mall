@@ -10,7 +10,6 @@ dark_UI.Name = "dark_UI"
 dark_UI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 dark_UI.Parent = game.CoreGui
 MinimizeKey = Enum.KeyCode.LeftControl
-})
 
 local Library = {}
 local TweenService = game:GetService("TweenService")
