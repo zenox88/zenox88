@@ -5,8 +5,6 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3500&pause=300&color=1793D1&center=true&vCenter=true&width=500&lines=~$+sleep+mode;~$+system+offline;~$+hibernating;~$+standby" alt="Typing SVG" />
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
-<div style="background-color: #1a1b26; padding: 20px; border-radius: 10px; color: #a9b1d6;">
-
 ```bash
 $ neofetch
               -`                  OS: Arch Linux x86_64
@@ -30,13 +28,11 @@ $ neofetch
     .`                       `/
 ```
 
-</div>
-
 <div align="center">
 
 ### SYSTEM INFO
 
-<table align="center" style="background-color: #1a1b26; border-radius: 10px;">
+<table align="center">
 <tr><td>
 
 ```bash
