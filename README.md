@@ -4,20 +4,8 @@
 
 <div align="center">
 
-```css
-╔════════════════════ STATUS ═══════════════════╗
-║                                              ║
-║  [█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█] ║
-║  [█  • Status    : deep sleep              █] ║
-║  [█  • Power     : Low                     █] ║
-║  [█  • Activity  : asleep                  █] ║
-║  [█  • System    : dreams                  █] ║
-║  [█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█] ║
-║                                              ║
-╚══════════════════════════════════════════════╝
-```
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=4000&pause=1000&color=1793D1&center=true&vCenter=true&multiline=true&width=600&height=200&lines=╔════════════════════+STATUS+═══════════════════╗;║++[█++•+Status++++:+deep+sleep+++++++++++++█]++║;║++[█++•+Power+++++:+Low+++++++++++++++++++++█]++║;║++[█++•+Activity++:+asleep++++++++++++++++++█]++║;║++[█++•+System++++:+dreams++++++++++++++++++█]++║;╚══════════════════════════════════════════════╝" alt="Typing SVG" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3500&pause=300&color=1793D1&center=true&vCenter=true&width=500&lines=~$+sleep+mode;~$+system+offline;~$+hibernating;~$+standby" alt="Typing SVG" />
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
 <div align="center">
