@@ -5,28 +5,28 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3500&pause=300&color=1793D1&center=true&vCenter=true&width=500&lines=~$+sleep+mode;~$+system+offline;~$+hibernating;~$+standby" alt="Typing SVG" />
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/jglovier/dotfiles-logo/main/dotfiles-logo-icon.png" width="100" height="100" />
+
 ```bash
-$ neofetch
-              -`                  OS: Arch Linux x86_64
-             .o+`                 Host: me
-            `ooo/                 Kernel: Sleeping
-           `+oooo:               Uptime: 0 days
-          `+oooooo:              Packages: zsh, vim, neofetch
-          -+oooooo+:             Shell: zsh 5.9
-        `/:-:++oooo+:            Resolution: 1920x1080
-       `/++++/+++++++:           WM: dwm
-      `/++++++++++++++:          Theme: Dark [Auto]
-     `/+++ooooooooooooo/`        Icons: None
-    ./ooosssso++osssssso+`       Terminal: st
-   .oossssso-````/ossssss+`      CPU: Brain 9999X @ 0MHz
-  -osssssso.      :ssssssso.     GPU: Dreams RTX 4090
- :osssssss/        osssso+++.    Memory: 0MiB / ∞MiB
-/ossssssss/        +ssssooo/-    Status: Sleeping
-`/ossssso+/:-    -:/+osssso+-    Power: 0%
- `+sso+:-`           `.-/+oso:   Mode: dreams btw
-  `++:.                   `-/+/
-    .`                       `/
+╭─────────────── System Information ───────────────╮
+│                                                 │
+│   OS        :  Arch Linux x86_64                │
+│   Host      :  Dreams v2.0                      │
+│   Kernel    :  Sleeping                         │
+│   Uptime    :  0 days                           │
+│   Packages  :  zsh, vim                         │
+│   Shell     :  zsh 5.9                          │
+│   Terminal  :  st                               │
+│   CPU       :  Brain 9999X @ 0MHz              │
+│   Memory    :  0MiB / ∞MiB                     │
+│   Status    :  Hibernating                      │
+│   Power     :  0%                              │
+│   Mode      :  dreams btw                       │
+│                                                 │
+╰─────────────────────────────────────────────────╯
 ```
+</div>
 
 <div align="center">
 
@@ -63,4 +63,5 @@ runtime: none # system hibernating
 
 <img src="https://profile-counter.glitch.me/zenox88/count.svg" />
 
+</div>
 </div>
