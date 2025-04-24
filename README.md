@@ -6,28 +6,26 @@
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
 ```bash
-[zenox@arch ~]$ neofetch
-                   -`                    zenox@arch
-                  .o+`                   -----------
-                 `ooo/                   OS: Arch Linux x86_64
-                `+oooo:                  Host: Human Brain v2.0
-               `+oooooo:                 Kernel: Sleeping
-               -+oooooo+:                Uptime: 0 days
-             `/:-:++oooo+:               Packages: zsh, vim, neofetch
-            `/++++/+++++++:              Shell: zsh 5.9
-           `/++++++++++++++:             Resolution: 1920x1080
-          `/+++ooooooooooooo/`           WM: dwm
-         ./ooosssso++osssssso+`          Theme: Dark [Auto]
-        .oossssso-````/ossssss+`         Icons: None
-       -osssssso.      :ssssssso.        Terminal: st
-      :osssssss/        osssso+++.       CPU: Brain 9999X @ 0MHz
-     /ossssssss/        +ssssooo/-       GPU: Dreams RTX 4090
-   `/ossssso+/:-        -:/+osssso+-     Memory: 0MiB / ∞MiB
-  `+sso+:-`                 `.-/+oso:    
- `++:.                           `-/+/    Status: Sleeping
- .`                                 `/    Power: 0%
-                                         Mode: dreams btw
-```
+$ neofetch
+                   -`                    
+                  .o+`                   OS: Arch Linux x86_64
+                 `ooo/                   Host: Human Brain v2.0
+                `+oooo:                  Kernel: Sleeping
+               `+oooooo:                 Uptime: 0 days
+               -+oooooo+:                Packages: zsh, vim, neofetch
+             `/:-:++oooo+:               Shell: zsh 5.9
+            `/++++/+++++++:              Resolution: 1920x1080
+           `/++++++++++++++:             WM: dwm
+          `/+++ooooooooooooo/`           Theme: Dark [Auto]
+         ./ooosssso++osssssso+`          Icons: None
+        .oossssso-````/ossssss+`         Terminal: st
+       -osssssso.      :ssssssso.        CPU: Brain 9999X @ 0MHz
+      :osssssss/        osssso+++.       GPU: Dreams RTX 4090
+     /ossssssss/        +ssssooo/-       Memory: 0MiB / ∞MiB
+   `/ossssso+/:-        -:/+osssso+-     
+  `+sso+:-`                 `.-/+oso:    Status: Sleeping
+ `++:.                           `-/+/    Power: 0%
+ .`                                 `/    Mode: dreams btw
 
 <div align="center">
 
