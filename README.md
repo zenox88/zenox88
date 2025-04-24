@@ -2,37 +2,33 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=1793D1&height=200&section=header&text=ZENOX&fontSize=80&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=System%20Status%3A%20Hibernating&descAlignY=55&descAlign=50" />
 
+<div style="display: flex; align-items: center; justify-content: center;">
+  <img src="https://avatars.githubusercontent.com/u/YOUR_ID?v=4" width="150" height="150" style="border-radius: 50%;" />
+</div>
+
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3500&pause=300&color=1793D1&center=true&vCenter=true&width=500&lines=~$+sleep+mode;~$+system+offline;~$+hibernating;~$+standby" alt="Typing SVG" />
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
 <div align="center">
 
 ```bash
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⣀⡀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣿⣿⣿⣿⣿⣿⣿⣶⣄⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+╭─────────────── System Information ───────────────╮
+│                                                 │
+│   OS        :  Arch Linux x86_64                │
+│   Host      :  Dreams v2.0                      │
+│   Kernel    :  Sleeping                         │
+│   Uptime    :  0 days                           │
+│   Packages  :  zsh, vim                         │
+│   Shell     :  zsh 5.9                          │
+│   Terminal  :  st                               │
+│   CPU       :  Brain 9999X @ 0MHz              │
+│   Memory    :  0MiB / ∞MiB                     │
+│   Status    :  Hibernating                      │
+│   Power     :  0%                              │
+│   Mode      :  dreams btw                       │
+│                                                 │
+╰─────────────────────────────────────────────────╯
 ```
-
-<div align="center">
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
-```css
-[Status]: DEEP_SLEEP_MODE
-[System]: HIBERNATING
-[Power]: MINIMAL
-[Dreams]: ACTIVE
-```
-
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-</div>
 
 <div align="center">
 
