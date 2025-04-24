@@ -20,9 +20,9 @@
 │   Packages  :  zsh, vim                         │
 │   Shell     :  zsh 5.9                          │
 │   Terminal  :  st                               │
-│   CPU       :  Brain on sleep mode @ 0MHz       │
+│   CPU       :  Brain 0X @ 0MHz                  │
 │   Memory    :  0MiB / ∞MiB                     │
-│   Status    :  sleep                           │
+│   Status    :  sleeping                        │
 │   Power     :  0%                              │
 │   Mode      :  dreams btw                       │
 │                                                 │
@@ -64,7 +64,7 @@ runtime: none # system hibernating
 
 ## Tools & Frameworks
 <p align="center">
-  <a href="#"><img src="https://skillicons.dev/icons?i=vscode,git,github,linux" /></a>
+  <a href="#"><img src="https://skillicons.dev/icons?i=vim,git,github,linux" /></a>
 </p>
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
