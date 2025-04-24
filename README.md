@@ -39,7 +39,7 @@
 ```bash
 [zenox@arch ~]$ pacman -Qe
 core: js html php
-aur: github-cli vscodium
+aur: github-cli Vim
 runtime: none # system hibernating
 ```
 
