@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=1793D1&height=200&section=header&text=ZENOX&fontSize=80&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=System%20Status%3A%20Sleep%20Mode&descAlignY=55&descAlign=50" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=1793D1&height=200&section=header&text=Visual%20Studio&fontSize=80&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Code%20Status%3A%20Sleep%20Mode&descAlignY=55&descAlign=50" />
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=4000&pause=1000&color=1793D1&center=true&vCenter=true&multiline=true&width=600&height=200&lines=╔════════════════════+STATUS+═══════════════════╗;║++[█++•+Status++++:+deep+sleep+++++++++++++█]++║;║++[█++•+Power+++++:+Low+++++++++++++++++++++█]++║;║++[█++•+Activity++:+asleep++++++++++++++++++█]++║;║++[█++•+System++++:+dreams++++++++++++++++++█]++║;╚══════════════════════════════════════════════╝" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=4000&pause=1000&color=1793D1&center=true&vCenter=true&multiline=true&width=600&height=200&lines=╔════════════════════+STATUS+═══════════════════╗;║++[█++•+Status++++:+sleeping++++++++++++++++█]++║;║++[█++•+Power+++++:+0%+++++++++++++++++++++++█]++║;║++[█++•+Memory++++:+0MiB+/+∞MiB+++++++++++++█]++║;║++[█++•+Mode+++++:+dreams+btw++++++++++++++++█]++║;╚══════════════════════════════════════════════╝" alt="Typing SVG" />
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
@@ -13,58 +13,27 @@
 ```bash
 ╭─────────────── System Information ───────────────╮
 │                                                 │
-│   OS        :  Arch Linux x86_64                │
-│   Host      :  Dreams v2.0                      │
-│   Kernel    :  Sleeping                         │
-│   Uptime    :  0 days                           │
-│   Packages  :  zsh, vim                         │
-│   Shell     :  zsh 5.9                          │
-│   Terminal  :  st                               │
-│   CPU       :  Brain 0X @ 0MHz                  │
+│   OS        :  Windows 10 x64                   │
+│   Host      :  Visual Studio Code               │
+│   Theme     :  Dark+                            │
+│   Editor    :  VS Code Latest                   │
+│   Terminal  :  Integrated                       │
 │   Memory    :  0MiB / ∞MiB                     │
-│   Status    :  sleeping                        │
-│   Power     :  0%                              │
+│   Status    :  sleeping                         │
+│   Power     :  0%                               │
 │   Mode      :  dreams btw                       │
 │                                                 │
 ╰─────────────────────────────────────────────────╯
 ```
 
-<div align="center">
-
-### SYSTEM INFO
-
-<table align="center">
-<tr><td>
-
-```bash
-[zenox@arch ~]$ pacman -Qe
-core: js html php
-aur: github-cli Vim
-runtime: none # system hibernating
-```
-
-</td></tr>
-</table>
-
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
-</div>
-
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=zenox88&show_icons=true&theme=tokyonight&bg_color=1F2335&hide_border=true&icon_color=1793D1&title_color=1793D1&text_color=FFFFFF" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=zenox88&theme=tokyonight&background=1F2335&hide_border=true&ring=1793D1&fire=1793D1&currStreakLabel=FFFFFF" width="49%" />
-</div>
-
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
-## Languages
+## Languages & Tools
 <p align="center">
-  <a href="#"><img src="https://skillicons.dev/icons?i=js,html,php,css" /></a>
+  <a href="#"><img src="https://skillicons.dev/icons?i=vscode,js,html,css,php,python" /></a>
 </p>
 
-## Tools & Frameworks
+## Development Environment
 <p align="center">
-  <a href="#"><img src="https://skillicons.dev/icons?i=vim,git,github,linux" /></a>
+  <a href="#"><img src="https://skillicons.dev/icons?i=vscode,git,github,powershell" /></a>
 </p>
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
@@ -76,6 +45,6 @@ runtime: none # system hibernating
 <div align="center">
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
-<img src="https://profile-counter.glitch.me/zenox88/count.svg" />
+<img src="https://profile-counter.glitch.me/{YOUR-USERNAME}/count.svg" />
 
 </div>
