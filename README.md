@@ -26,6 +26,7 @@ $ neofetch
   `+sso+:-`                 `.-/+oso:    Status: Sleeping
  `++:.                           `-/+/    Power: 0%
  .`                                 `/    Mode: dreams btw
+```
 
 <div align="center">
 
@@ -50,4 +51,16 @@ runtime: none # system hibernating
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=zenox88&show_icons=true&theme=tokyonight&bg_color=1F2335&hide_border=true&icon_color=1793D1&title_color=1793D1&text_color=FFFFFF" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=zenox88&theme=tokyonight&background=1F2335&hide_border=true&ring=1793D1&fire=
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=zenox88&theme=tokyonight&background=1F2335&hide_border=true&ring=1793D1&fire=1793D1&currStreakLabel=FFFFFF" width="49%" />
+</div>
+
+<div align="center">
+<img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake-dark.svg" width="100%">
+</div>
+
+<div align="center">
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+
+<img src="https://profile-counter.glitch.me/zenox88/count.svg" />
+
+</div>
