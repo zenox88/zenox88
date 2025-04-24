@@ -9,30 +9,33 @@
 ╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝
 ```
 
-<img src="https://readme-typing-svg.herokuapp.com?font=VT323&size=35&duration=3500&pause=300&color=7289DA&center=true&vCenter=true&width=500&lines=Sleep+Mode;Offline;Hibernating;Standby" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3500&pause=300&color=1793D1&center=true&vCenter=true&width=500&lines=~$+sleep+mode;~$+system+offline;~$+hibernating;~$+standby" alt="Typing SVG" />
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
-```css
-{
-    status: "sleeping",
-    base: "bed",
-    mission: "more sleep",
-    power: "0",
-    mode: "dreams"
-}
+```bash
+[zenox@arch ~]$ neofetch
+OS: Arch Linux x86_64
+Shell: zsh 5.9
+Terminal: st
+WM: dwm
+status: sleeping
+uptime: 0 days
+power: 0%
+mode: dreams btw
 ```
 
 <div align="center">
 
-### SYSTEMS
+### SYSTEM INFO
 
 <table align="center">
 <tr><td>
 
-```diff
-+ CORE: JS • HTML • PHP
-+ TOOLS: GITHUB • Visual Studio
-! RUNTIME: NONE
+```bash
+[zenox@arch ~]$ pacman -Qe
+core: js html php
+aur: github-cli vscodium
+runtime: none # system hibernating
 ```
 
 </td></tr>
@@ -43,8 +46,8 @@
 </div>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=zenox88&show_icons=true&theme=tokyonight&bg_color=000000&hide_border=true&icon_color=7289DA&title_color=7289DA&text_color=FFFFFF" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=zenox88&theme=tokyonight&background=000000&hide_border=true&ring=7289DA&fire=7289DA&currStreakLabel=FFFFFF" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api?username=zenox88&show_icons=true&theme=tokyonight&bg_color=1F2335&hide_border=true&icon_color=1793D1&title_color=1793D1&text_color=FFFFFF" width="49%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=zenox88&theme=tokyonight&background=1F2335&hide_border=true&ring=1793D1&fire=1793D1&currStreakLabel=FFFFFF" width="49%" />
 </div>
 
 <div align="center">
