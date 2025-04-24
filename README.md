@@ -20,9 +20,9 @@
 │   Packages  :  zsh, vim                         │
 │   Shell     :  zsh 5.9                          │
 │   Terminal  :  st                               │
-│   CPU       :  Brain 9999X @ 0MHz              │
+│   CPU       :  Brain on sleep mode @ 0MHz       │
 │   Memory    :  0MiB / ∞MiB                     │
-│   Status    :  Hibernating                      │
+│   Status    :  sleep                           │
 │   Power     :  0%                              │
 │   Mode      :  dreams btw                       │
 │                                                 │
