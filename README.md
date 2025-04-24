@@ -6,26 +6,32 @@
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jglovier/dotfiles-logo/main/dotfiles-logo-icon.png" width="100" height="100" />
 
 ```bash
-╭─────────────── System Information ───────────────╮
-│                                                 │
-│   OS        :  Arch Linux x86_64                │
-│   Host      :  Dreams v2.0                      │
-│   Kernel    :  Sleeping                         │
-│   Uptime    :  0 days                           │
-│   Packages  :  zsh, vim                         │
-│   Shell     :  zsh 5.9                          │
-│   Terminal  :  st                               │
-│   CPU       :  Brain 9999X @ 0MHz              │
-│   Memory    :  0MiB / ∞MiB                     │
-│   Status    :  Hibernating                      │
-│   Power     :  0%                              │
-│   Mode      :  dreams btw                       │
-│                                                 │
-╰─────────────────────────────────────────────────╯
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⣀⡀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣿⣿⣿⣿⣿⣿⣿⣶⣄⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ```
+
+<div align="center">
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+
+```css
+[Status]: DEEP_SLEEP_MODE
+[System]: HIBERNATING
+[Power]: MINIMAL
+[Dreams]: ACTIVE
+```
+
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 </div>
 
 <div align="center">
@@ -63,5 +69,4 @@ runtime: none # system hibernating
 
 <img src="https://profile-counter.glitch.me/zenox88/count.svg" />
 
-</div>
 </div>
