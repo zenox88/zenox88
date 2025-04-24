@@ -38,7 +38,7 @@
 
 ```bash
 [zenox@windows ~]$ sysinfo
-core: js html php
+core: js html php css
 apps: vscode github-desktop
 runtime: none # system hibernating
 ```
