@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Slot Machine</title>
+  <title>Cozy Slot Machine</title>
   <style>
     body {
       background: #f9f6f2;
@@ -123,4 +123,4 @@
     spinBtn.addEventListener('click', spinReels);
   </script>
 </body>
-</html>
+</html> 
