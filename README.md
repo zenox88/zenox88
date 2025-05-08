@@ -47,7 +47,7 @@ runtime: none # system hibernating
 </table>
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
+A
 </div>
 
 <div align="center">
