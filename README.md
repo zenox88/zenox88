@@ -1,81 +1,239 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cozy Slot Machine</title>
+  <style>
+    body {
+      background: linear-gradient(120deg, #f9f6f2 0%, #ffe0b2 100%);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+    }
+    .stars {
+      position: fixed;
+      top: 0; left: 0; width: 100vw; height: 100vh;
+      pointer-events: none;
+      z-index: 0;
+    }
+    h1 {
+      color: #d2691e;
+      margin-bottom: 10px;
+      z-index: 1;
+      position: relative;
+      text-shadow: 0 2px 8px #fff8e1;
+    }
+    .slot-machine {
+      background: #fff8e1cc;
+      border-radius: 20px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+      padding: 30px 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      z-index: 1;
+      position: relative;
+    }
+    .reels {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    .reel {
+      background: #ffe0b2;
+      border-radius: 10px;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      transition: transform 0.2s;
+      animation: pop 0.3s;
+    }
+    @keyframes pop {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+    .spin-btn {
+      background: #ffb74d;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 32px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+      margin-bottom: 10px;
+      z-index: 1;
+      position: relative;
+    }
+    .spin-btn:hover {
+      background: #ffa726;
+      transform: scale(1.05);
+    }
+    .message {
+      font-size: 1.1rem;
+      color: #388e3c;
+      margin-top: 10px;
+      min-height: 24px;
+      z-index: 1;
+      position: relative;
+      text-shadow: 0 2px 8px #fff8e1;
+    }
+  </style>
+</head>
+<body>
+  <canvas class="stars"></canvas>
+  <h1>🎰 Cozy Slot Machine</h1>
+  <div class="slot-machine">
+    <div class="reels">
+      <div class="reel" id="reel1">🍒</div>
+      <div class="reel" id="reel2">🍋</div>
+      <div class="reel" id="reel3">🍊</div>
+    </div>
+    <button class="spin-btn" id="spinBtn">Spin</button>
+    <div class="message" id="message"></div>
+  </div>
+  <audio id="spinSound" src="https://cdn.pixabay.com/audio/2022/07/26/audio_124bfa4c7b.mp3"></audio>
+  <audio id="winSound" src="https://cdn.pixabay.com/audio/2022/07/26/audio_124bfa4c7b.mp3"></audio>
+  <audio id="jackpotSound" src="https://cdn.pixabay.com/audio/2022/03/15/audio_115b9b6e7b.mp3"></audio>
+  <script>
+    // Animated stars background
+    const canvas = document.querySelector('.stars');
+    const ctx = canvas.getContext('2d');
+    let stars = [];
+    function resizeCanvas() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+    function createStars() {
+      stars = [];
+      for (let i = 0; i < 60; i++) {
+        stars.push({
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height,
+          r: Math.random() * 1.5 + 0.5,
+          d: Math.random() * 0.5 + 0.2,
+          o: Math.random() * 0.5 + 0.5
+        });
+      }
+    }
+    function drawStars() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      for (const s of stars) {
+        ctx.globalAlpha = s.o;
+        ctx.beginPath();
+        ctx.arc(s.x, s.y, s.r, 0, 2 * Math.PI);
+        ctx.fillStyle = '#fff9c4';
+        ctx.shadowColor = '#fffde7';
+        ctx.shadowBlur = 8;
+        ctx.fill();
+        ctx.shadowBlur = 0;
+      }
+      ctx.globalAlpha = 1;
+    }
+    function animateStars() {
+      for (const s of stars) {
+        s.y += s.d;
+        if (s.y > canvas.height) {
+          s.y = 0;
+          s.x = Math.random() * canvas.width;
+        }
+      }
+      drawStars();
+      requestAnimationFrame(animateStars);
+    }
+    window.addEventListener('resize', () => {
+      resizeCanvas();
+      createStars();
+    });
+    resizeCanvas();
+    createStars();
+    animateStars();
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=00A4EF&height=200&section=header&text=ZENOX&fontSize=80&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=System%20Status%3A%20Sleep%20Mode&descAlignY=55&descAlign=50" />
+    // Slot machine logic
+    const symbols = ['🍒', '🍋', '🍊', '🍉', '🍇', '⭐'];
+    const reels = [
+      document.getElementById('reel1'),
+      document.getElementById('reel2'),
+      document.getElementById('reel3')
+    ];
+    const spinBtn = document.getElementById('spinBtn');
+    const message = document.getElementById('message');
+    const spinSound = document.getElementById('spinSound');
+    const winSound = document.getElementById('winSound');
+    const jackpotSound = document.getElementById('jackpotSound');
 
-<div align="center">
+    let spinning = false;
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=4000&pause=1000&color=00A4EF&center=true&vCenter=true&multiline=true&width=600&height=200&lines=╔════════════════════+STATUS+═══════════════════╗;║++[█++•+Status++++:+deep+sleep+++++++++++++█]++║;║++[█++•+Power+++++:+Low+++++++++++++++++++++█]++║;║++[█++•+Activity++:+asleep++++++++++++++++++█]++║;║++[█++•+System++++:+dreams++++++++++++++++++█]++║;╚══════════════════════════════════════════════╝" alt="Typing SVG" />
+    function randomSymbol() {
+      return symbols[Math.floor(Math.random() * symbols.length)];
+    }
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+    function animateReel(reel, duration, finalSymbol, delay) {
+      return new Promise(resolve => {
+        let elapsed = 0;
+        let interval = 50;
+        function spin() {
+          if (elapsed < duration) {
+            reel.textContent = randomSymbol();
+            reel.style.transform = 'scale(1.15)';
+            setTimeout(() => { reel.style.transform = 'scale(1)'; }, 100);
+            elapsed += interval;
+            setTimeout(spin, interval);
+          } else {
+            setTimeout(() => {
+              reel.textContent = finalSymbol;
+              reel.style.transform = 'scale(1.2)';
+              setTimeout(() => { reel.style.transform = 'scale(1)'; }, 200);
+              resolve();
+            }, delay);
+          }
+        }
+        spin();
+      });
+    }
 
-<div align="center">
+    async function spinReels() {
+      if (spinning) return;
+      spinning = true;
+      message.textContent = '';
+      spinSound.currentTime = 0;
+      spinSound.play();
+      // Decide final symbols
+      let results = [randomSymbol(), randomSymbol(), randomSymbol()];
+      // Animate each reel with staggered stop
+      await Promise.all([
+        animateReel(reels[0], 900, results[0], 0),
+        animateReel(reels[1], 1200, results[1], 0),
+        animateReel(reels[2], 1500, results[2], 0)
+      ]);
+      setTimeout(() => {
+        if (results[0] === results[1] && results[1] === results[2]) {
+          jackpotSound.currentTime = 0;
+          jackpotSound.play();
+          message.textContent = '🎉 JACKPOT! You win! 🎉';
+        } else if (results[0] === results[1] || results[1] === results[2] || results[0] === results[2]) {
+          winSound.currentTime = 0;
+          winSound.play();
+          message.textContent = 'You got two! Nice win!';
+        } else {
+          message.textContent = 'Try again!';
+        }
+        spinning = false;
+      }, 400);
+    }
 
-```bash
-╭─────────────── System Information ───────────────╮
-│                                                 │
-│   OS        :  Windows 10 x64                   │
-│   Host      :  Dreams v2.0                      │
-│   Kernel    :  Sleeping                         │
-│   Uptime    :  0 days                           │
-│   Packages  :  VSCode, PowerShell               │
-│   Shell     :  PowerShell                       │
-│   Terminal  :  Windows Terminal                 │
-│   CPU       :  Brain 0X @ 0MHz                  │
-│   Memory    :  0MiB / ∞MiB                     │
-│   Status    :  sleeping                         │
-│   Power     :  0%                               │
-│   Mode      :  dreams btw                       │
-│                                                 │
-╰─────────────────────────────────────────────────╯
-```
-
-<div align="center">
-
-### SYSTEM INFO
-
-<table align="center">
-<tr><td>
-
-```bash
-[zenox@windows ~]$ sysinfo
-core: js html php css
-apps: vscode github-desktop
-runtime: none # system hibernating
-```
-
-</td></tr>
-</table>
-
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
-</div>
-
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=zenox88&show_icons=true&theme=tokyonight&bg_color=1F2335&hide_border=true&icon_color=00A4EF&title_color=00A4EF&text_color=FFFFFF" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=zenox88&theme=tokyonight&background=1F2335&hide_border=true&ring=00A4EF&fire=00A4EF&currStreakLabel=FFFFFF" width="49%" />
-</div>
-
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
-## Languages
-<p align="center">
-  <a href="#"><img src="https://skillicons.dev/icons?i=js,html,php,css" /></a>
-</p>
-
-## Tools & Frameworks
-<p align="center">
-  <a href="#"><img src="https://skillicons.dev/icons?i=windows,vscode,git,github" /></a>
-</p>
-
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
-<div align="center">
-<img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake-dark.svg" width="100%">
-</div>
-
-<div align="center">
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
-<img src="https://profile-counter.glitch.me/zenox88/count.svg" />
-
-</div>
+    spinBtn.addEventListener('click', spinReels);
+  </script>
+</body>
+</html>
