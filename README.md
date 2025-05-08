@@ -1,126 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cozy Slot Machine</title>
-  <style>
-    body {
-      background: #f9f6f2;
-      font-family: 'Comic Sans MS', cursive, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-    }
-    h1 {
-      color: #d2691e;
-      margin-bottom: 10px;
-    }
-    .slot-machine {
-      background: #fff8e1;
-      border-radius: 20px;
-      box-shadow: 0 4px 24px rgba(0,0,0,0.1);
-      padding: 30px 40px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .reels {
-      display: flex;
-      gap: 20px;
-      margin-bottom: 20px;
-    }
-    .reel {
-      background: #ffe0b2;
-      border-radius: 10px;
-      width: 60px;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 2.5rem;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    }
-    .spin-btn {
-      background: #ffb74d;
-      color: #fff;
-      border: none;
-      border-radius: 8px;
-      padding: 12px 32px;
-      font-size: 1.2rem;
-      cursor: pointer;
-      transition: background 0.2s;
-      margin-bottom: 10px;
-    }
-    .spin-btn:hover {
-      background: #ffa726;
-    }
-    .message {
-      font-size: 1.1rem;
-      color: #388e3c;
-      margin-top: 10px;
-      min-height: 24px;
-    }
-  </style>
-</head>
-<body>
-  <h1>🎰 Cozy Slot Machine</h1>
-  <div class="slot-machine">
-    <div class="reels">
-      <div class="reel" id="reel1">🍒</div>
-      <div class="reel" id="reel2">🍋</div>
-      <div class="reel" id="reel3">🍊</div>
-    </div>
-    <button class="spin-btn" id="spinBtn">Spin</button>
-    <div class="message" id="message"></div>
-  </div>
-  <audio id="spinSound" src="https://cdn.pixabay.com/audio/2022/07/26/audio_124bfa4c7b.mp3"></audio>
-  <audio id="winSound" src="https://cdn.pixabay.com/audio/2022/07/26/audio_124bfa4c7b.mp3"></audio>
-  <audio id="jackpotSound" src="https://cdn.pixabay.com/audio/2022/03/15/audio_115b9b6e7b.mp3"></audio>
-  <script>
-    const symbols = ['🍒', '🍋', '🍊', '🍉', '🍇', '⭐'];
-    const reels = [
-      document.getElementById('reel1'),
-      document.getElementById('reel2'),
-      document.getElementById('reel3')
-    ];
-    const spinBtn = document.getElementById('spinBtn');
-    const message = document.getElementById('message');
-    const spinSound = document.getElementById('spinSound');
-    const winSound = document.getElementById('winSound');
-    const jackpotSound = document.getElementById('jackpotSound');
+<div align="center">
 
-    function randomSymbol() {
-      return symbols[Math.floor(Math.random() * symbols.length)];
-    }
+<img src="https://capsule-render.vercel.app/api?type=waving&color=00A4EF&height=200&section=header&text=ZENOX&fontSize=80&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=System%20Status%3A%20Sleep%20Mode&descAlignY=55&descAlign=50" />
 
-    function spinReels() {
-      spinSound.currentTime = 0;
-      spinSound.play();
-      let results = [];
-      for (let i = 0; i < reels.length; i++) {
-        results[i] = randomSymbol();
-        reels[i].textContent = results[i];
-      }
-      setTimeout(() => {
-        if (results[0] === results[1] && results[1] === results[2]) {
-          jackpotSound.currentTime = 0;
-          jackpotSound.play();
-          message.textContent = '🎉 JACKPOT! You win! 🎉';
-        } else if (results[0] === results[1] || results[1] === results[2] || results[0] === results[2]) {
-          winSound.currentTime = 0;
-          winSound.play();
-          message.textContent = 'You got two! Nice win!';
-        } else {
-          message.textContent = 'Try again!';
-        }
-      }, 700);
-    }
+<div align="center">
 
-    spinBtn.addEventListener('click', spinReels);
-  </script>
-</body>
-</html> 
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=4000&pause=1000&color=00A4EF&center=true&vCenter=true&multiline=true&width=600&height=200&lines=╔════════════════════+STATUS+═══════════════════╗;║++[█++•+Status++++:+deep+sleep+++++++++++++█]++║;║++[█++•+Power+++++:+Low+++++++++++++++++++++█]++║;║++[█++•+Activity++:+asleep++++++++++++++++++█]++║;║++[█++•+System++++:+dreams++++++++++++++++++█]++║;╚══════════════════════════════════════════════╝" alt="Typing SVG" />
+
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+
+<div align="center">
+
+```bash
+╭─────────────── System Information ───────────────╮
+│                                                 │
+│   OS        :  Windows 10 x64                   │
+│   Host      :  Dreams v2.0                      │
+│   Kernel    :  Sleeping                         │
+│   Uptime    :  0 days                           │
+│   Packages  :  VSCode, PowerShell               │
+│   Shell     :  PowerShell                       │
+│   Terminal  :  Windows Terminal                 │
+│   CPU       :  Brain 0X @ 0MHz                  │
+│   Memory    :  0MiB / ∞MiB                     │
+│   Status    :  sleeping                         │
+│   Power     :  0%                               │
+│   Mode      :  dreams btw                       │
+│                                                 │
+╰─────────────────────────────────────────────────╯
+```
+
+<div align="center">
+
+### SYSTEM INFO
+
+<table align="center">
+<tr><td>
+
+```bash
+[zenox@windows ~]$ sysinfo
+core: js html php css
+apps: vscode github-desktop
+runtime: none # system hibernating
+```
+
+</td></tr>
+</table>
+
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+
+</div>
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=zenox88&show_icons=true&theme=tokyonight&bg_color=1F2335&hide_border=true&icon_color=00A4EF&title_color=00A4EF&text_color=FFFFFF" width="49%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=zenox88&theme=tokyonight&background=1F2335&hide_border=true&ring=00A4EF&fire=00A4EF&currStreakLabel=FFFFFF" width="49%" />
+</div>
+
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+
+## Languages
+<p align="center">
+  <a href="#"><img src="https://skillicons.dev/icons?i=js,html,php,css" /></a>
+</p>
+
+## Tools & Frameworks
+<p align="center">
+  <a href="#"><img src="https://skillicons.dev/icons?i=windows,vscode,git,github" /></a>
+</p>
+
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+
+<div align="center">
+<img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake-dark.svg" width="100%">
+</div>
+
+<div align="center">
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+
+<img src="https://profile-counter.glitch.me/zenox88/count.svg" />
+
+</div>
