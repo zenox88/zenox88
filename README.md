@@ -1,6 +1,6 @@
 <!-- Cozy Slot Machine: Copy this into your HTML file -->
 <div id="slot-machine" style="background:#fff8f0;padding:2em;border-radius:1em;box-shadow:0 2px 8px #e0c3a0;max-width:350px;margin:2em auto;text-align:center;font-family:'Comic Sans MS',cursive;">
-  <h2 style="color:#b5838d;">🎰 Cozy Slot Machine</h2>
+  <h2 style="color:#b5838d;">🎰 slot machine</h2>
   <div id="slots" style="font-size:2.5em;letter-spacing:1em;">🍒 🍋 🍊</div>
   <button id="spin" style="margin-top:1em;padding:0.5em 2em;background:#ffb4a2;color:#fff;border:none;border-radius:0.5em;font-size:1.2em;cursor:pointer;">Spin!</button>
   <div id="result" style="margin-top:1em;font-size:1.1em;color:#6d6875;"></div>
