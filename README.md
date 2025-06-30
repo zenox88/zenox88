@@ -15,7 +15,7 @@
 │                                                 │
 │   OS        :  Windows 10 x64                   │
 │   Host      :  Dreams v2.0                      │
-│   Kernel    :  Sleeping                         │
+│   Kernel    :  turned off                        │
 │   Uptime    :  0 days                           │
 │   Packages  :  VSCode, PowerShell               │
 │   Shell     :  PowerShell                       │
