@@ -1,1 +1,1 @@
-![bwa](https://giphy.com/gifs/rockagogo-rock-metal-punk-QxLyXUCjoweU3D7RVw)
+![Slipknot Devil GIF](https://media.giphy.com/media/QxLyXUCjoweU3D7RVw/giphy.gif)
